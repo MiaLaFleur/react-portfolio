@@ -6,7 +6,7 @@ function Nav(props) {
 
   return (
     <nav>
-      <ul>
+      <ul className="navSect">
         <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
           <span onClick={() => setCurrentTab("about")}>About Me</span>
         </li>

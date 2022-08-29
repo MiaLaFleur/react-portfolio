@@ -80,27 +80,27 @@ function Portfolio() {
   return (
     <section>
       <div>
-        <h1>My Portfolio</h1>
+        <h1 className="titleOfSect">My Portfolio</h1>
       </div>
-      <div>
+      <div className="projects">
         <ul>
-          <li>
+          <li className="project">
             <Project projects={projects[0]}></Project>
           </li>
-          <li>
+          <li className="project">
             <Project projects={projects[1]}></Project>
           </li>
         </ul>
         <ul>
-        <li>
+        <li className="project">
             <Project projects={projects[2]}></Project>
           </li>
-          <li>
+          <li className="project">
             <Project projects={projects[3]}></Project>
           </li>
         </ul>
         <ul>
-        <li>
+        <li className="project">
             <Project projects={projects[4]}></Project>
           </li>
         </ul>

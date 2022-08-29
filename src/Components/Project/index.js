@@ -24,15 +24,17 @@ function Project(props) {
   }
 
   return (
-    <div>
+    <div className="">
       <img
+        className="imgs"
         src={require(`../../Assets/imgs/${img}`)}
         alt="screenshot of project"
       />
       <h3 className="projName">{name}</h3>
       <p className="projDesc">{desc}</p>
+      <p>Technologies that were used: </p>
       <p className="projTech">{getTechnologies(technologies)}</p>
-      <a className="projDepLink" href={depLink}>{name}</a>
+      <a className="projDepLink" href={depLink}>{name}</a><br></br>
       <a className="projGitLink" href={gitLink}>{name} Repo</a>
     </div>
   );

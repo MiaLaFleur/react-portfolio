@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return(
-    <footer>
+    <footer className="footer">
       <div>
         <a href="https://github.com/MiaLaFleur">My GitHub</a>
       </div>
