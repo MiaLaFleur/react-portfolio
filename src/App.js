@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
+import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import './App.css';
 
 function App() {
@@ -13,10 +16,10 @@ function App() {
         return <About />
       case "portfolio":
         return <Portfolio />
-      // case "resume":
-      //   return <Resume />
-      // case "contact":
-      //   return <Contact />
+      case "resume":
+        return <Resume />
+      case "contact":
+        return <Contact />
       default:
         return <About />
     }
@@ -30,8 +33,8 @@ function App() {
       <div>
         <main>{renderPage()}</main>
       </div>
+      <Footer></Footer>
     </div>
-    
   );
 }
 
