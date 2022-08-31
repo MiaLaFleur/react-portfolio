@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8851d4be.css",
-    "main.js": "/react-portfolio/static/js/main.89bf4ade.js",
+    "main.css": "/react-portfolio/static/css/main.d07de39b.css",
+    "main.js": "/react-portfolio/static/js/main.dbc59b69.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/picOfMe.jpg": "/react-portfolio/static/media/picOfMe.a15a04772ffc1537862d.jpg",
     "static/media/List-Hub.jpeg": "/react-portfolio/static/media/List-Hub.aa3df6e5c16705c44b3c.jpeg",
-    "static/media/picOfMe.jpg": "/react-portfolio/static/media/picOfMe.7dc5ef96ee94a385348c.jpg",
+    "static/media/picOfResume.png": "/react-portfolio/static/media/picOfResume.6deda0bf6280ce87d7df.png",
     "static/media/readme-generator.png": "/react-portfolio/static/media/readme-generator.39dbbbafb923f3e452a1.png",
     "static/media/aroundTheWorld.png": "/react-portfolio/static/media/aroundTheWorld.742bf0269b27a4383f06.png",
     "static/media/BudgetTracker.png": "/react-portfolio/static/media/BudgetTracker.e27be876bd0109db9115.png",
     "static/media/noteTakr.png": "/react-portfolio/static/media/noteTakr.b406ad52edc4f789d109.png",
+    "static/media/picOfBadge.png": "/react-portfolio/static/media/picOfBadge.715cfbe53a6a3982713e.png",
     "index.html": "/react-portfolio/index.html",
-    "main.8851d4be.css.map": "/react-portfolio/static/css/main.8851d4be.css.map",
-    "main.89bf4ade.js.map": "/react-portfolio/static/js/main.89bf4ade.js.map",
+    "main.d07de39b.css.map": "/react-portfolio/static/css/main.d07de39b.css.map",
+    "main.dbc59b69.js.map": "/react-portfolio/static/js/main.dbc59b69.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8851d4be.css",
-    "static/js/main.89bf4ade.js"
+    "static/css/main.d07de39b.css",
+    "static/js/main.dbc59b69.js"
   ]
 }
