@@ -8,16 +8,16 @@ function Nav(props) {
     <nav>
       <ul className="navSect">
         <li className={currentTab === "about" ? "mx-2 navActive" : "mx-2"}>
-          <span onClick={() => setCurrentTab("about")}>About Me</span>
+          <span className="directory" onClick={() => setCurrentTab("about")}>About Me</span>
         </li>
         <li className={currentTab === "portfolio" ? "mx-2 navActive" : "mx-2"}>
-          <span onClick={() => setCurrentTab("portfolio")}>My Portfolio</span>
+          <span className="directory" onClick={() => setCurrentTab("portfolio")}>My Portfolio</span>
         </li>
         <li className={currentTab === "resume" ? "mx-2 navActive" : "mx-2"}>
-          <span onClick={() => setCurrentTab("resume")}>My Resume</span>
+          <span className="directory" onClick={() => setCurrentTab("resume")}>My Resume</span>
         </li>
         <li className={currentTab === "contact" ? "mx-2 navActive" : "mx-2"}>
-          <span onClick={() => setCurrentTab("contact")}>Contact Me</span>
+          <span className="directory" onClick={() => setCurrentTab("contact")}>Contact Me</span>
         </li>
       </ul>
     </nav>

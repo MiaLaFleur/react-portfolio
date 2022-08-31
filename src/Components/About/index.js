@@ -11,7 +11,7 @@ function About() {
           <img src={require('../../Assets/imgs/picOfMe.jpg')} className="picOfMe" alt="profile" />
         </div>
         <div>
-          <p>My name is Mia LaFleur! I am from North Texas and I am ready to begin my career in software development. I am very good at working with a team and quickly picking up new concepts and technologies. I am very creative and excited to learn and constantly be improving my new coding abilities!</p>
+          <p className="aboutMeP">My name is Mia LaFleur! I am from North Texas and I am ready to begin my career in software development. I am very good at working with a team and quickly picking up new concepts and technologies. I am very creative and excited to learn and constantly be improving my new coding abilities!</p>
         </div>
       </div>
       

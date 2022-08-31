@@ -2,16 +2,18 @@ import React from "react";
 
 function Resume() {
   return (
-    <section>
-      <div>
+    <section className="resumeSect">
+      <div className="resumeTitle">
         <h1>My Resume</h1>
       </div>
-      <div>
-        <p>Link to my resume pdf coming soon...</p>
+      <div className="resumeLinkDiv">
+        <a href="https://www.canva.com/design/DAFK1XPRnU8/_5fLFR359GKEnXE6Lmdi9g/view?utm_content=DAFK1XPRnU8&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" className="resumeLink">
+          <img src={require("../../Assets/imgs/picOfResume.png")} alt="resume" className="picOfResume"></img>
+        </a>
       </div>
-      <div>
+      <div className="proficiencies">
         <h4>Proficiencies</h4>
-        <ol>
+        <ul className="profList">
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
@@ -31,7 +33,7 @@ function Resume() {
           <li>REST</li>
           <li>Progressive Web Applications(PWA)</li>
          <li>React</li>
-        </ol>
+        </ul>
       </div>
     </section>
   );

@@ -24,7 +24,7 @@ function Project(props) {
   }
 
   return (
-    <div className="">
+    <div className="projectInfo">
       <img
         className="imgs"
         src={require(`../../Assets/imgs/${img}`)}

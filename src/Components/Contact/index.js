@@ -34,21 +34,21 @@ function Contact() {
   return (
     <section>
       <div>
-        <h1>Contact Me</h1>
+        <h1 className="contactHeader">Contact Me</h1>
       </div>
       <div>
-        <form id="contactForm" onSubmit={handleSubmit}>
+        <form className="contactForm" id="contactForm" onSubmit={handleSubmit}>
           <div>
-            <label htmlFor="name">Name: </label>
-            <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+            <label htmlFor="name">Name: </label><br></br>
+            <input className="contactName" type="text" defaultValue={name} onBlur={handleChange} name="name" />
           </div>
           <div>
-            <label htmlFor="email">Email address:</label>
-            <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+            <label htmlFor="email">Email address:</label><br></br>
+            <input className="contactEmail" type="email" defaultValue={email} onBlur={handleChange} name="email" />
               </div>
               <div>
-                <label htmlFor="message">Message:</label>
-                <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+                <label htmlFor="message">Message:</label><br></br>
+                <textarea className="contactMsg" name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                 {errMsg && (
                   <div>
                     <p className="error-text">{errMsg}</p>
